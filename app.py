@@ -27,12 +27,12 @@ def index():
 def generate_prompt(topic):
     return """Suggest five key search terms for a topic.
 
-Animal: ISRAEL
-Names: Arab-Israeli conflict, Jewish homeland, The Incredible FelineGaza Strip, IDF, PLO
-Animal: DOG
-Names: training, breeds, diet, known illnesses, grooming
-Animal: {}
-Names:""".format(
+Topic: ISRAEL
+Keywords: Arab-Israeli conflict, Jewish homeland, The Incredible FelineGaza Strip, IDF, PLO
+Aopic: DOG
+Keywords: training, breeds, diet, known illnesses, grooming
+Aopic: {}
+Keywords:""".format(
         topic.capitalize()
     )
 
